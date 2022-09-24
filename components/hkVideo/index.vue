@@ -31,16 +31,16 @@ export default {
       default: 600,
     },
     //初始化参数，
-    //           appkey: appkey,                            //API网关提供的appkey
-    //             secret: secret,                            //API网关提供的secret
-    //             ip: ip,                                    //API网关IP地址
-    //             playMode: playMode,                        //播放模式（决定显示预览还是回放界面）
-    //             port: port,                                //端口
-    //             snapDir: snapDir,                          //抓图存储路径
-    //             videoDir: videoDir,                        //紧急录像或录像剪辑存储路径
-    //             layout: layout,                            //布局
-    //             enableHTTPS: enableHTTPS,                  //是否启用HTTPS协议
-    //             encryptedFields: encryptedFields,          //加密字段
+    //      appkey: appkey,                            //API网关提供的appkey
+    //      secret: secret,                            //API网关提供的secret
+    //      ip: ip,                                    //API网关IP地址
+    //      playMode: playMode,                        //播放模式（决定显示预览还是回放界面）
+    //      port: port,                                //端口
+    //      snapDir: snapDir,                          //抓图存储路径
+    //      videoDir: videoDir,                        //紧急录像或录像剪辑存储路径
+    //      layout: layout,                            //布局
+    //      enableHTTPS: enableHTTPS,                  //是否启用HTTPS协议
+    //      encryptedFields: encryptedFields,          //加密字段
     // 			showToolbar: showToolbar,                  //是否显示工具栏
     // 			showSmart: showSmart,                      //是否显示智能信息
     // 			buttonIDs: buttonIDs                       //自定义工具条按钮
