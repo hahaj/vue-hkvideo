@@ -1,7 +1,9 @@
 ﻿# vue-hk-video
 海康web插件1.5.1版本组件
 
+前言:
 
+使用前请确保index.html已正确引入官方插件包query-1.12.4.min.js、jsencrypt.min.js、jsWebControl-1.0.0.min.js
 
 
 
