@@ -61,7 +61,7 @@ export default {
     //未安装插件时候是否显示插件下载对话框提示用户下载功能
     downloadDialog: {
       type: Boolean,
-      default: true,
+      default: false,
     },
     //海康插件下载url
     downloadUrl: {

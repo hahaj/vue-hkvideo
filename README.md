@@ -13,7 +13,7 @@ width|组件宽(单位px)|Number	|1000|——	|否|
 height	|组件高(单位px)|	Number	|600|	——	|否
 playMode|	模式，0：预览，1：回放|	Number|	0|	1|	否
 autoResize|	浏览器窗口改变时候是否动态改变组件宽度，开启的话将按照初始化组件占浏览器可视区域比例缩放组件宽度，如果设置false，请手动监听浏览器窗口大小变化动态设置width值	|Boolean	|true|	false|	否
-downloadDialog|	未安装海康视频插件时候是否显示插件下载对话框提示用户下载功能|	Boolean|	true|	false|	否
+downloadDialog|	未安装海康视频插件时候是否显示插件下载对话框提示用户下载功能,需支持element的el-dialog组件|	Boolean|	false|	true|	否
 downloadText|	海康视频插件下载对话框提示文字|	String|插件启动失败，请检查插件是否安装，如果未安装请点击下载安装，安装后刷新页面|	——|否|
 downloadUrl|	海康视频插件下载地址|	String|	——	|——	|downloadDialog为true必须
 argument|	初始化组件参数，具体看下表，argument内的playMode优先级高于props属性playMode|	Object|	——|——|	是
